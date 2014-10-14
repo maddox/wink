@@ -62,8 +62,8 @@ Controlling garage doors:
 ```ruby
 light_bulb = client.light_bulbs.find(400)
 light_bulb.position # => 0
-light_bulk.open
-light_bulk.open?
+light_bulb.open
+light_bulb.open?
 light_bulb.closed?
 light_bulb.close
 light_bulb.opening?
@@ -72,7 +72,7 @@ light_bulb.opening?
 List subscriptions for each device:
 
 ```
-light_bulk.subscriptions
+light_bulb.subscriptions
 ```
 
 Create subscription for device:
